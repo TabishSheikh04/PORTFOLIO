@@ -1,0 +1,191 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #030303;
+    color: #fff6f6;
+    padding: 0;
+    margin: 0;
+    background: url('https://e0.pxfuel.com/wallpapers/627/591/desktop-wallpaper-better-start-of-a-future-technology-background-portfolio-thumbnail.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Cover the entire viewport */
+}
+
+/* Container styling */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: rgba(8, 8, 8, 0.9); /* Slightly transparent background for readability */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Header styling */
+header {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    position: relative;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    animation: slideIn 1s ease-out;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    color: #dcdcdc;
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-out;
+}
+
+/* Section styling */
+section {
+    padding: 50px 0;
+    background: https://i.postimg.cc/tg3fKsvd/BG.jpg;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #bbb7b7;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+    color: #2eb9b2;
+}
+
+/* Projects styling */
+.projects .project {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.projects .project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(245, 240, 240, 0.945);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.projects .project img:hover {
+    transform: scale(1.05);
+}
+
+.projects .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #4cecdf;
+}
+
+.projects .project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.projects .project a:hover {
+    text-decoration: underline;
+}
+
+/* Certifications styling */
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.certifications li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: https://e0.pxfuel.com/wallpapers/627/591/desktop-wallpaper-better-start-of-a-future-technology-background-portfolio-thumbnail.jpg
+}
+
+/* Contact styling */
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.contact li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #f0ecec;
+}
+
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background: #f1ecec;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
